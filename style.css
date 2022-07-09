@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'PT Serif', serif;
+}
+
+nav {
+  width: 25%;
+  height: 100vh;
+  background: rgba(11, 4, 113, 0.918);
+  padding-top: 40vh;
+  position: fixed;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  width: 75%;
+  min-height: 100vh;
+  margin-left: 25%;
+}
+
+#page1 {
+  background: url(../img/giphy.gif)0 0 no-repeat;
+  background-size: cover;
+  padding-top: 35vh;
+  padding-left: 10%;
+}
+
+#page2 {
+  background-color: rgba(0, 0, 0, 0.991);
+}
+
+#page3 {
+  background-color: yellowgreen;
+}
+
+#page4 {
+  background-color: turquoise;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+h2{
+color: white;
+
+}
+
+
+
+
+#debut {
+  color: snow;
+  width: 50%;
+  margin: 30px 0;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  background: black;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid white;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  /*transition: 1s linear*/
+}
+
+.btn:hover {
+  border: 3px solid rgba(237, 15, 152, 0.991);
+  border-style: solid;
+}
+
+#gauche {
+  width: 25%;
+}
+
+#droite {
+  width: 75%;
+}
+
+#gauche,
+#droite {
+  float: left;
+}
+
+div {
+  height: 33.33vh;
+  width: 100%;
+  padding: 5vh 0 0 5vh;
+}
+
+h2+p {
+  margin: 10px 0;
+  color: snow;
+}
+
+figure {
+  width: 100%;
+  height: 33.33vh;
+  /*border: 1px solid black;*/
+  overflow: hidden;
+  padding: 10px;
+}
+
+figure img {
+  max-width: 100%;
+  min-width: 100%;
+}
